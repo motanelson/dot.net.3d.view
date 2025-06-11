@@ -31,7 +31,7 @@ public class VoxelViewer3D : Form
         LoadVoxelData(filePath);
 
         timer = new System.Timers.Timer(600);
-        timer.Elapsed += (s, e) => { rotation += Math.PI / 4; this.Invalidate(); };
+        timer.Elapsed += (s, e) => { rotation += Math.PI / 8; this.Invalidate(); };
         timer.Start();
 
     }
