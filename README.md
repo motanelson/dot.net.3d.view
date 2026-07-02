@@ -1,2 +1,5 @@
-# dot.net.3d.view
-3d file view
+openjdk-asmtools-jasm Hello.jasm -w .
+
+sudo dnf install openjdk-asmtools.noarch
+
+/usr/bin/openjdk-asmtools-jdis -w . Hello.class
